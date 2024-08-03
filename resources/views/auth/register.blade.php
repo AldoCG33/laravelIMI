@@ -13,6 +13,9 @@
     <div class="container mt-5">
         <form method="POST" action="{{ route('register') }}">
             @csrf
+        <br>
+            <h1>Registro de usuarios</h1>
+        </br>
             <div class="form-group">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" class="form-control" required>

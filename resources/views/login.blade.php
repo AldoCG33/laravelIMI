@@ -36,21 +36,17 @@
                             <p class="text-center fw-bold mx-3 mb-0">O</p>
                         </div>
                         <div class="form-outline mb-4">
-                            <input type="email" id="form3Example3" class="form-control form-control-lg"
-                                   placeholder="Dirección de correo electrónico" />
+                            <input type="email" id="form3Example3" class="form-control form-control-lg" placeholder="Dirección de correo electrónico" />
                             <label class="form-label" for="form3Example3">Dirección de correo electrónico</label>
                         </div>
                         <div class="form-outline mb-3">
-                            <input type="password" id="form3Example4" class="form-control form-control-lg"
-                                   placeholder="Contraseña" />
+                            <input type="password" id="form3Example4" class="form-control form-control-lg" placeholder="Contraseña" />
                             <label class="form-label" for="form3Example4">Contraseña</label>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="form-check mb-0">
                                 <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-                                <label class="form-check-label" for="form2Example3">
-                                    Recuérdame
-                                </label>
+                                <label class="form-check-label" for="form2Example3">Recuérdame</label>
                             </div>
                             <a href="#!" class="text-body">¿Olvidó su contraseña?</a>
                         </div>
@@ -65,7 +61,7 @@
         </div>
         <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
             <div class="text-white mb-3 mb-md-0">
-                Derechos de autor © 2020. Todos los derechos reservados.
+                Derechos de autor © 2024. Todos los derechos reservados.
             </div>
             <div>
                 <a href="#!" class="text-white me-4">
