@@ -1,0 +1,65 @@
+/* Estilos básicos para el body */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos básicos para el formulario */
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos básicos para los campos del formulario */
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 90%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/* Estilos básicos para los botones del formulario */
+
+button[type="submit"] {
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+button[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+.card-header {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-header h3 {
+    font-weight: bold;
+    margin: 0;
+}

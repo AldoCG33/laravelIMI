@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/registro.css') }}">
 </head>
-
 <body>
     <div class="container mt-5">
-        <form method="POST" action="{{ route('register') }}">
-            @csrf
-        <br>
-            <h1>Registro de usuarios</h1>
-        </br>
-            <div class="form-group">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" class="form-control" required>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-center">Registro de usuarios</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="name">Nombre:</label>
+                                <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="username">Usuario:</label>
+                                <input type="text" class="form-control" id="username" placeholder="Introduce tu usuario">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="email">Correo electrónico:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="password">Contraseña:</label>
+                                <input type="password" class="form-control" id="password" placeholder="Introduce tu contraseña">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="confirm-password">Confirmar contraseña:</label>
+                                <input type="password" class="form-control" id="confirm-password" placeholder="Confirma tu contraseña">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Registrar</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="user">Usuario:</label>
-                <input type="text" id="user" name="user" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Contraseña:</label>
-                <input type="password" id="password" name="password" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <label for="password_confirmation">Confirmar contraseña:</label>
-                <input type="password" id="password_confirmation" name="password_confirmation" class="form-control" required>
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary">Registrar</button>
-            </div>
-        </form>
+        </div>
     </div>
 </body>
 </html>
