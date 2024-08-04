@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -16,3 +17,8 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 // Rutas para el registro de usuarios
 Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
 Route::post('/register', [RegisterController::class, 'register']);
+
+//Rutas para mi Api
+Route::post('/api/data',[ApiController::class,'store']);
+Route::get('/api/data',[ApiController::class,'index']);
+
