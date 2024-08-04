@@ -1,0 +1,36 @@
+body {
+    background-image: url('/img/maestro.webp'); /* Cambia el nombre de la imagen según corresponda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Asegura que el fondo cubra toda la vista */
+    margin: 0;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.form-container {
+    background-color: #fff; /* Fondo blanco */
+    padding: 25px; /* Espacio entre el contenido y el borde */
+    border: 2px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Curva los bordes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 150%; /* Ancho del contenedor */
+    height: 70%;/*largo del contenedor*/
+}
