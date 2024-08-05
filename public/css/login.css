@@ -27,10 +27,10 @@ body {
 
 .form-container {
     background-color: #fff; /* Fondo blanco */
-    padding: 25px; /* Espacio entre el contenido y el borde */
+    padding: 30px; /* Espacio entre el contenido y el borde */
     border: 2px solid #ddd; /* Borde gris claro */
     border-radius: 10px; /* Curva los bordes */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
     width: 150%; /* Ancho del contenedor */
-    height: 70%;/*largo del contenedor*/
+    height: 80%;/*largo del contenedor*/
 }
