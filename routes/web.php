@@ -6,7 +6,7 @@ use App\Http\Controllers\ApiController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('login');
+    return view('auth.login');
 });
 
 // Rutas para el inicio de sesión
